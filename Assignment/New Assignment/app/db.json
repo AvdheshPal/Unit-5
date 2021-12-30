@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "user": "adf",
+      "age": "4",
+      "address": "asdfadf",
+      "department": "adsfaf",
+      "salary": "2",
+      "id": 1
+    },
+    {
+      "user": "Avdhesh",
+      "id": 2
+    }
+  ]
+}

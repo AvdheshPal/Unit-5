@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import { Form } from "../inputs"
+import { Form } from "../table/inputs"
 
 import { Tableitem } from "./tableItem"
 

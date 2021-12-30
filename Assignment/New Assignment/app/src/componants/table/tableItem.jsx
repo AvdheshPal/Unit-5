@@ -7,6 +7,7 @@ export const Tableitem = ({itms})=>{
        <h3>Address : {itms.address}</h3>
        <h3>Department : {itms.department}</h3>
        <h3>Salary : {itms.salary}</h3>
+       <img src={itms.file} alt="" />
        </>
    }
    return<></>

@@ -1,6 +1,6 @@
 import { useRef, useState } from "react"
 
-export const Form = ({el})=>{
+export const Form = ()=>{
     const [data,setdata] = useState({})
 
     const file = useRef(null)
@@ -15,7 +15,29 @@ export const Form = ({el})=>{
 
     const p = (e)=>{
         e.preventDefault();
-         el(data)
+         async function postfun (){
+            try{
+                 await fetch(`http://localhost:3004/posts`,{
+                    method:"POST",
+                    body:JSON.stringify(data),
+                    headers:{
+                        "Content-Type":"application/json"
+                    }
+                })
+            }
+            catch(err){console.log(err);}
+         }
+         postfun ();
+
+         async function getfun(){
+             try{
+                 let get = await fetch(`http://localhost:3004/posts`)
+                 let result = await get.json()
+                 console.log(result);
+             }
+             catch(galati){console.log(galati);}
+         }
+         getfun()
     }
     return <>
     <div className="form">
