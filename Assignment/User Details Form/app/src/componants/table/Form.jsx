@@ -12,9 +12,12 @@ export const Form = ({ el }) => {
             [name]: value,
         })
     }
-    const p = (e) => {
-        e.preventDefault();
-        async function postfun() {
+    useEffect(()=>{
+        getfun()
+    },[])
+    
+    async function postfun(e) {
+            e.preventDefault();
             try {
                 await fetch(`http://localhost:3004/posts`, {
                     method: "POST",
@@ -38,11 +41,11 @@ export const Form = ({ el }) => {
             catch (galati) { console.log(galati); }
         }
 
-    }
+  
 
     return <>
         <div className="form" id="form">
-            <form onSubmit={p} >
+            <form onSubmit={postfun} >
                 <input type="text" onChange={handleinp} name="user" placeholder="Username" />
                 <input type="number" onChange={handleinp} name="age" placeholder="Age" />
                 <input type="text" onChange={handleinp} name="address" placeholder="Address" />
