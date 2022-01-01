@@ -1,14 +1,17 @@
-export const Tableitem = ({itms})=>{
-   if(itms){
-       console.log(itms);
-       return<>
-       <h3>Name : {itms.user}</h3>
-       <h3>Age : {itms.age}</h3>
-       <h3>Address : {itms.address}</h3>
-       <h3>Department : {itms.department}</h3>
-       <h3>Salary : {itms.salary}</h3>
-       <img src={itms.file} alt="" />
-       </>
+export const Tableitem = ({itm})=>{
+   if(itm){
+       
+       return itm.map((e)=>
+       <div id="ddiv" >
+           <div> Name : {e.user}</div>
+           <div> Age : {e.age}</div>
+           <div> Address : {e.address}</div>
+           <div> Deparment : {e.department}</div>
+           <div> Photo : {e.file}</div>
+           <div> Salary : {e.salary}</div>
+       </div>
+       )
+
    }
    return<></>
 }

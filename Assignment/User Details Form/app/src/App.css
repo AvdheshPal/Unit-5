@@ -2,6 +2,27 @@
   text-align: center;
 }
 
-.form{
+#form{
   display: grid;
+  background-color: coral;
+  width:400px;
+  padding: 20px 10px 20px 10px;
+  margin:auto;
+}
+#salary{
+  margin-right: 60px;
+}
+#ddiv{
+  display: grid;
+  background-color: coral;
+  width:420px;
+  border: 1px solid black;
+  margin: 10px 11px;
+}
+#table{
+  display:flex;
+  border:2px solid;
+  background-color: orange;
+  flex-wrap: wrap;
+  
 }

@@ -1,15 +1,21 @@
 {
   "posts": [
     {
-      "user": "adf",
-      "age": "4",
-      "address": "asdfadf",
-      "department": "adsfaf",
-      "salary": "2",
+      "user": "Avdhesh",
+      "age": "22",
+      "address": "Allahabad , India",
+      "department": "Developer",
+      "salary": "1200000000",
+      "file": "C:\\fakepath\\logo1.jpg",
       "id": 1
     },
     {
-      "user": "Avdhesh",
+      "user": "Suraj",
+      "age": "28",
+      "address": "Bhind, India",
+      "department": "Developer",
+      "salary": "12000",
+      "file": "C:\\fakepath\\MobileOs.jpg",
       "id": 2
     }
   ]

@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import { Form } from "../table/inputs"
+import { Form } from "../table/Form"
 
 import { Tableitem } from "./tableItem"
 
@@ -9,10 +9,9 @@ export const Table = ()=>{
     const getdata = (e)=>{
         setinp(e)
     }
-    // console.log(inp);
         return <>
         <Form el={getdata} />
-        <h1>This is my table</h1>
-        <Tableitem itms={inp} />
+        <h1>Here is your User id cards</h1>
+        <div id="table" ><Tableitem itm={inp}/></div>
         </>
 }
