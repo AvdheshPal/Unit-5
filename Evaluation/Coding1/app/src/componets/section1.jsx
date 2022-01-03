@@ -44,14 +44,15 @@ export const Form = ({fn})=>{
         }
     }
     
-    return <div>
-        <form onSubmit={postfun} >
-            <input type="text" name="title" onChange={handleinp} placeholder="Title" />
-            <input type="text" name="ingredients" onChange={handleinp} placeholder="Ingredients" />
-            <input type="text" name="time" onChange={handleinp} placeholder="time" />
-            <input type="text" name="image" onChange={handleinp} placeholder="Image link" />
-            <input type="text" name="instructions" onChange={handleinp} placeholder="Instructions" />
-            <input type="submit"  />
+    return <div className="sec1" >
+        <form onSubmit={postfun} className="form" >
+        <h1>Add Recipe</h1>
+            <input className="inp" type="text" name="title" onChange={handleinp} placeholder="Title" />
+            <input className="inp" type="text" name="ingredients" onChange={handleinp} placeholder="Ingredients" />
+            <input className="inp" type="text" name="time" onChange={handleinp} placeholder="time" />
+            <input className="inp" type="text" name="image" onChange={handleinp} placeholder="Image link" />
+            <input className="inp" type="text" name="instructions" onChange={handleinp} placeholder="Instructions" />
+            <input type="submit" className="btn" />
         </form>
     </div>
 }

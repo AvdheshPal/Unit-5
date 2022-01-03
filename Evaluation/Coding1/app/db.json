@@ -1,17 +1,36 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Red Winter Minestrone with Winter Greens Pesto",
+      "ingredients": "Winter Greens Pesto:  1 bunch beet greens  1 bunch turnip greens  1 bunch kale  ⅔ cup extra-virgin olive oil  2 cloves garlic  1 ounce Parmigiano Reggiano cheese, grated  ½ teaspoon kosher salt Red Winter Minestrone:  6 tablespoons extra-virgin olive oil, divided  1 white onion, finely chopped  2 Roma (plum) tomatoes, peeled and grated  4 cloves garlic, minced  1 teaspoon minced fresh rosemary  ½ teaspoon kosher salt  1 bay leaf  1 pinch dried chili flakes  1 leek, white and light green parts only, halved lengthwise, cleaned, and cut into 1/2-inch slices  1 carrot, peeled and sliced  ½ pound turnips, peeled and cubed  ½ pound beets, peeled and cubed  1 cup dry white wine  2 cups cooked cannellini beans  ½ cup green beans, cut into 1-inch pieces  5 cups water  ¼ cup chopped flat-leaf (Italian) parsley  ½ tablespoon fresh lemon juice, or to taste (Optional)",
+      "time": "1 hr 5 mins",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3648971.jpg&w=596&h=399&c=sc&poi=face&q=85",
+      "instructions": "Step 1 Bring a large pot of salted water to a boil. Prepare a bowl of ice water. Strip beet greens, turnip greens, and kale from their coarse stems and wash leaves well. Working in batches, cook each bunch in boiling water until bright green and slightly limp, about 1 minute. Transfer immediately to ice water and repeat with remaining greens. Discard cooking water.  Step 2 Remove greens from ice water and squeeze out as much water as possible.  Step 3 Combine greens, 2/3 cup olive oil, 2 cloves garlic, Parmigiano Reggiano cheese, and 1/2 teaspoon kosher salt in blender or food processor; blend until smooth. Transfer pesto to a bowl and cover surface with plastic wrap.  Step 4 Heat 1/4 cup olive oil in large pot over medium-high heat. Stir in onion, grated tomato, 4 cloves minced garlic, rosemary, 1/2 teaspoon kosher salt, bay leaf, and chili flakes. Cook, stirring frequently, for 5 minutes; reduce heat to low. Continue cooking and stirring until vegetables are a deep golden brown, 20 to 30 minutes.  Step 5 Pour remaining 2 tablespoons olive oil over onion mixture. Stir in leek, carrot, turnips, and beets. Increase heat to medium-high and cook, stirring occasionally, for 5 minutes.  Step 6 Pour white wine over vegetable mixture and scrape browned bits off the bottom of the pot. Mix cannellini beans and green beans into vegetable mixture; pour in 5 cups water. Bring liquid to a boil, reduce heat, and simmer until green beans are tender, about 5 minutes more. Stir in parsley and lemon juice.  Step 7 Divide soup among heated bowls and serve with a generous dollop of the winter greens pesto.",
+      "id": 1
     },
     {
-      "title": "samosa",
-      "ingredients": "dal,tel,namak",
-      "time": "2min",
-      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/40530/i20-exterior-right-front-three-quarter-5.jpeg?q=85",
-      "instructions": "tel garam karo fir usme fry kro",
+      "title": "Keto Shrimp Scampi",
+      "ingredients": "2 (8 ounce) packages shirataki noodles, drained and rinsed  1 tablespoon olive oil  1 tablespoon minced shallot  2 cloves garlic, minced  ¼ teaspoon red pepper flakes  12 ounces raw shrimp, peeled and deveined  ¼ teaspoon salt  ⅛ teaspoon ground black pepper  3 tablespoons fresh lemon juice  3 tablespoons dry white wine  2 tablespoons butter  1 tablespoon chopped fresh parsley",
+      "time": "Total: 35 mins",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5566683.jpg&w=596&h=399&c=sc&poi=face&q=85",
+      "instructions": "Step 1 Cover shirataki noodles with water and bring to a boil. Boil for 5 minutes. Drain.  Step 2 Return drained noodles to the saucepan and cook over medium heat to remove any excess moisture, 5 to 6 minutes. Remove from heat and set aside.  Step 3 Drizzle olive oil into a large skillet over medium heat. Add shallot and stir until translucent, 2 to 3 minutes. Take care not to burn. Add garlic and red pepper flakes; stir for 1 minute. Add shrimp and cook for 2 to 3 minutes per side, taking care not to overcook. Season with salt and pepper.  Step 4 Transfer shrimp to a bowl, reserving pan drippings in the skillet. Whisk lemon juice and white wine into the skillet. Add butter and cook until fully incorporated and sauce begins to thicken slightly, 3 to 4 minutes.  Step 5 Return shrimp to the skillet. Add noodles. Sprinkle with parsley and toss to combine.",
       "id": 2
+    },
+    {
+      "title": "Cabbage Fat-Burning Soup",
+      "ingredients": "5 carrots, chopped  3 onions, chopped  2 (16 ounce) cans whole peeled tomatoes, with liquid  1 large head cabbage, chopped  1 (1 ounce) envelope dry onion soup mix  1 (15 ounce) can cut green beans, drained  2 quarts tomato juice  2 green bell peppers, diced  10 stalks celery, chopped  1 (14 ounce) can beef broth",
+      "time": "Total: 45 mins",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3306702.jpg&w=596&h=596&c=sc&poi=face&q=85",
+      "instructions": "Step 1 Place carrots, onions, tomatoes, cabbage, green beans, peppers, and celery in a large pot. Add onion soup mix, tomato juice, beef broth, and enough water to cover vegetables. Simmer until vegetables are tender. May be stored in the refrigerator for several days.",
+      "id": 3
+    },
+    {
+      "title": "Baked Ham and Cheese Party Sandwiches",
+      "ingredients": "¾ cup melted butter  1 ½ tablespoons Dijon mustard  1 ½ teaspoons Worcestershire sauce  1 ½ tablespoons poppy seeds  1 tablespoon dried minced onion  24 mini sandwich rolls  1 pound thinly sliced cooked deli ham  1 pound thinly sliced Swiss cheese",
+      "time": "Total: 35 mins",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4566155.jpg&w=596&h=596&c=sc&poi=face&q=85",
+      "instructions": "Step 1 Preheat oven to 350 degrees F (175 degrees C). Grease a 9x13-inch baking dish.  Step 2 In a bowl, mix together butter, Dijon mustard, Worcestershire sauce, poppy seeds, and dried onion. Separate the tops from bottoms of the rolls, and place the bottom pieces into the prepared baking dish. Layer about half the ham onto the rolls. Arrange the Swiss cheese over the ham, and top with remaining ham slices in a layer. Place the tops of the rolls onto the sandwiches. Pour the mustard mixture evenly over the rolls.  Step 3 Bake in the preheated oven until the rolls are lightly browned and the cheese has melted, about 20 minutes. Slice into individual rolls through the ham and cheese layers to serve.",
+      "id": 4
     }
   ]
 }

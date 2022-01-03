@@ -36,9 +36,50 @@
     transform: rotate(360deg);
   }
 }
-#ind{
+.ind{
   color:red;
 }
-#title{
+.title{
   color:green;
+}
+/* .sec1{
+  display: grid;
+  background-color: aquamarine;
+} */
+.form{
+  display:grid;
+  width:400px;
+  background-color:#ffe6e6;
+}
+.inp{
+  width:280px;
+  height:30px;
+  margin:20px 30px;
+}
+.btn{
+  background-color:#ff9999;
+  border:1px solid red;
+  border-radius: 5px;
+  width:150px;
+  height:30px;
+  margin-left:90px;
+  margin-bottom:30px;
+}
+.upper{
+  display:flex;
+  justify-content: space-around;
+}
+.sec2{
+  display:block;
+  overflow-y: scroll;
+}
+.sec3{
+  border:1px solid black;
+}
+#s3{
+  display:flex;
+  justify-content: space-around;
+}
+#img{
+  
 }

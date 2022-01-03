@@ -16,9 +16,13 @@ function App() {
   }
   return (
     <div className="App">
+      <h1>Recipe Tracking Application</h1>
+      <div className='upper'>
        <Form fn={getdata} />
-       <Sec2 dt={data} fun={getinfo} />
-       <Sec3 e={info} />
+       <div className='sec2'><Sec2 dt={data} fun={getinfo} /></div>
+      </div>
+      <h1>Information</h1>
+       <div className='sec3' ><Sec3 e={info} /></div>
     </div>
   );
 }
