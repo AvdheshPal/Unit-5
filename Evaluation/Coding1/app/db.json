@@ -1,0 +1,17 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "samosa",
+      "ingredients": "dal,tel,namak",
+      "time": "2min",
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/40530/i20-exterior-right-front-three-quarter-5.jpeg?q=85",
+      "instructions": "tel garam karo fir usme fry kro",
+      "id": 2
+    }
+  ]
+}
