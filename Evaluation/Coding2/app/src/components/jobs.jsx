@@ -35,6 +35,7 @@ export const Jobs = () => {
         setData(
             data.filter(el => el.id !== e)
         )
+        alert("Applied Successfully")
     }
     return (
         <div style={{display:"flex",justifyContent:"center"}}>
