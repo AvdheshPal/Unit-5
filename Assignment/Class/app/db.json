@@ -2,8 +2,13 @@
   "todos": [
     {
       "status": false,
-      "title": "my First todo",
+      "title": "Rohit baghel",
       "id": 1
+    },
+    {
+      "status": false,
+      "title": "suraj karo",
+      "id": 2
     }
   ]
 }

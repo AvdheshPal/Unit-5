@@ -45,12 +45,14 @@ export const Todos = () => {
         }
     }
     return loading ? (<div> Loading...</div>) : error ? (<div>Something went wrong...</div>):(
-        <div>
-            <input type="text" placeholder="Enter Todo here" onChange={(e) => { setText(e.target.value); }} />
-            <button onClick={() => {
-                postfun();
-            }} >Add</button>
-            {todos.map((e, i) => <div key={i}>{e.title} - {e.status ? "Done" : "Not Done"}</div>)}
-        </div>
+
+            <div>
+                <input className="border-2 border-black" type="text" placeholder="Enter Todo here" onChange={(e) => { setText(e.target.value); }} />
+                <button className="border-2 border-black px-2 mx-4"onClick={() => {
+                    postfun();
+                }} >Add</button>
+                {todos.map((e, i) => <div key={i}>{e.title} - {e.status ? "Done" : "Not Done"}</div>)}
+            </div>
+      
     )
 }

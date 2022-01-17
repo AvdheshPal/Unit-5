@@ -9,6 +9,9 @@ function App() {
   const dispatch = useDispatch();
   return (
     <div className="App">
+
+      <h1 className="font-bold text-4xl mb-6 text-indigo-600" >This is React App with Tailwind</h1>
+
      {/* <button onClick={()=>{
        dispatch(addTodo(1))
      }} >Add 1</button>
