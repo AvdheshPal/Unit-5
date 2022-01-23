@@ -7,15 +7,15 @@ import { BasicButtons } from './conponents/btn'
 
 
 function App() {
-  const [theme,setTheme] = useState("lite")
+  const [theme, setTheme] = useState("lite")
   console.log(theme);
   return (
     <div className="App">
       <Div theme={theme} >Button</Div>
-      <button onClick={()=>{
+      <button onClick={() => {
         setTheme((theme === "lite" ? "dark" : "lite"))
       }} >change</button>
-      <BasicButtons/>
+      <BasicButtons />
     </div>
   );
 }
