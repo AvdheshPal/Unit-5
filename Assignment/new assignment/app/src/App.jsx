@@ -8,7 +8,9 @@ import { BasicButtons } from './conponents/btn'
 
 function App() {
   const [theme, setTheme] = useState("lite")
+
   console.log(theme);
+  
   return (
     <div className="App">
       <Div theme={theme} >Button</Div>
