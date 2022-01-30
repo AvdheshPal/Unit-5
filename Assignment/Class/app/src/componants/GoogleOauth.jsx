@@ -19,6 +19,7 @@ const onSignoutSuccess = () => {
 };
 export function Glogin() {
     return <>
+
         <GoogleLogin
             clientId={clientId}
             onSuccess={onLoginSuccess}
@@ -32,16 +33,12 @@ export function Glogin() {
                 </button>
             )}
         />
-
-
-
-
-
     </>;
 }
 
 export function Glogout() {
     return <>
+
         <GoogleLogout
             clientId={clientId}
             onLogoutSuccess={onSignoutSuccess}
@@ -51,7 +48,6 @@ export function Glogout() {
             )}
         >
         </GoogleLogout>
-
     </>
 }
 
