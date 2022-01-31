@@ -38,7 +38,6 @@ export function Glogin() {
 
 export function Glogout() {
     return <>
-
         <GoogleLogout
             clientId={clientId}
             onLogoutSuccess={onSignoutSuccess}
@@ -48,7 +47,6 @@ export function Glogout() {
             )}
         >
         </GoogleLogout>
-        
     </>
 }
 
