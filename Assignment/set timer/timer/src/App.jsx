@@ -2,7 +2,6 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 
 
-
 function App() {
  
   const [tim, setTim] = useState(0)
