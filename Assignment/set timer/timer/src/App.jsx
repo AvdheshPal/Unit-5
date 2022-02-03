@@ -4,12 +4,7 @@ import React, { useEffect, useState } from 'react';
 
 
 function App() {
-  //  Timer(1,5,true)
-  //   return (
-  //     <div className="App">
-  //       <h1>The Timer</h1>
-  //     </div>
-  //   );
+ 
   const [tim, setTim] = useState(0)
   const [flag, setflag] = useState(false)
   const [inp, setinp] = useState(0)
