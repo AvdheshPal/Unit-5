@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
-// import { Timer } from './conponants/timer';
+
 
 
 function App() {
